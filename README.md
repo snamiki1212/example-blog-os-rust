@@ -1,3 +1,5 @@
+# OS in Rust
+## Getting Started
 
 ```sh
 $ rustup override set nightly
@@ -21,3 +23,11 @@ $ qemu-system-x86_64 -drive format=raw,file=target/x86_64-blog_os/debug/bootimag
 ```sh
 $ cargo run
 ```
+
+## Doc
+
+- [Writing an OS in Rust](https://os.phil-opp.com/)
+
+## LICENSE
+
+MIT
